@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Gloock&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="font-inter">
+    <header class="bg-[#f0f2f5] p-1">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <div class="flex gap-8">
+            <div class="flex gap-4 font-inter text-[#1F2026]">
+              <img src="./images/location.svg" alt="" />
+              <p class="font-inter text-[#1F2026] underline cursor-pointer">
+                Toshkent
+              </p>
+            </div>
+            <p class="font-inter text-[#1F2026] cursor-pointer">
+              Topshirish punktlari
+            </p>
+          </div>
+          <div>
+            <p class="text-[#8B8E99] font-inter cursor-pointer">
+              Buyurtmangizni 1 kunda bepul yetkazib beramiz!
+            </p>
+          </div>
+          <div class="flex gap-4">
+            <p class="text-[#595B66] font-inter cursor-pointer">
+              Savol-javoblar
+            </p>
+            <p class="text-[#595B66] font-inter cursor-pointer">
+              Buyurtmalarim
+            </p>
+            <div class="flex gap-3">
+              <img src="./images/languages.svg" alt="" />
+              <p class="text-[#595B66] font-inter cursor-pointer">O'zbekcha</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div>
+      <div
+        class="container py-4 grid grid-cols-3 items-center justify-center gap-7"
+      >
+        <div class="flex">
+          <img src="./images/logo.svg" alt="" />
+          <div
+            class="flex w-[127px] h-[40px] rounded-[5px] justify-center gap-1 items-center cursor-pointer bg-[#ebebff]"
+          >
+            <img src="./images/catalog.svg" alt="" />
+            <p class="text-[#7000FF] font-inter">Katalog</p>
+          </div>
+        </div>
+        <div class="flex">
+          <input
+            class="w-[450px] h-10 border rounded-tl-[5px] rounded-bl-[5px] focus:border-[#757575] pl-4"
+            type="text"
+            placeholder="Mahsulotlar va turkumlar izlash"
+          />
+          <div
+            class="w-[80px] h-[40px] rounded-tr-[5px] cursor-pointer rounded-br-[5px] bg-[#F2F4F7] flex items-center justify-center"
+          >
+            <img src="./images/search.svg" alt="" />
+          </div>
+        </div>
+        <div class="flex gap-12">
+          <div class="flex gap-2 cursor-pointer items-center">
+            <img src="./images/sign-in.svg" alt="" />
+            <p class="text-[#1F2026]">Kirish</p>
+          </div>
+          <div class="flex gap-2 cursor-pointer items-center">
+            <img src="./images/sort.svg" alt="" />
+            <p class="text-[#1F2026]">Saralangan</p>
+          </div>
+          <div class="flex gap-2 cursor-pointer items-center">
+            <img src="./images/cart.svg" alt="" />
+            <p class="text-[#1F2026]">Savat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container flex justify-between py-2">
+        <div class="flex gap-8">
+          <div class="flex items-center gap-1">
+            <img src="./images/payment.svg" alt="" />
+            <p class="text-[#1F2026] font-bold cursor-pointer">
+              Muddatli to'lov
+            </p>
+          </div>
+          <p class="cursor-pointer text-[#595B66]">Elektronika</p>
+          <p class="cursor-pointer text-[#595B66]">texnika</p>
+          <p class="cursor-pointer text-[#595B66]">Kiyim</p>
+          <p class="cursor-pointer text-[#595B66]">Poyabzallar</p>
+          <p class="cursor-pointer text-[#595B66]">Aksessuarlar</p>
+          <p class="cursor-pointer text-[#595B66]">Go'zallik</p>
+          <p class="cursor-pointer text-[#595B66]">Salomatlik</p>
+          <p class="cursor-pointer text-[#595B66]">Uy-ro'zg'or</p>
+          <p class="cursor-pointer text-[#595B66]">Qurilish</p>
+        </div>
+        <div class="flex gap-1 cursor-pointer items-center">
+          <p class="cursor-pointer text-[#595B66]">Yana</p>
+          <img src="./images/down.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="swiper py-8 w-[1200px] h-[450px]">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="rounded-[12px]" src="./images/banner-1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="rounded-[12px]" src="./images/banner-2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="rounded-[12px]" src="./images/banner-3.jpg" alt="" />
+        </div>
+      </div>
+
+      <div
+        class="button-prev absolute top-1/2 left-4 transform -translate-y-1/2 z-10"
+      >
+        <img src="./images/prev.svg" alt="" />
+      </div>
+      <div
+        class="button-next absolute top-1/2 right-4 transform -translate-y-1/2 z-10"
+      >
+        <img src="./images/next.svg" alt="" />
+      </div>
+    </div>
+
+    <div>
+      <div class="container py-4">
+        <div class="grid grid-cols-4 gap-5">
+          <div
+            class="flex w-[300px] cursor-pointer h-[60px] bg-[#efefef] hover:bg-gray-300 transition duration-300 justify-center rounded-[12px] gap-7 items-center"
+          >
+            <img class="w-10 h-10" src="./images/promo-4.png" alt="" />
+            <p>11.11</p>
+          </div>
+
+          <div
+            class="flex w-[300px] cursor-pointer h-[60px] bg-[#efefef] hover:bg-gray-300 transition duration-300 justify-center rounded-[12px] gap-7 items-center"
+          >
+            <img class="w-10 h-10" src="./images/promo-3.png" alt="" />
+            <p>Elektronika</p>
+          </div>
+
+          <div
+            class="flex w-[300px] cursor-pointer h-[60px] bg-[#efefef] hover:bg-gray-300 transition duration-300 justify-center rounded-[12px] gap-7 items-center"
+          >
+            <img class="w-10 h-10" src="./images/promo-2.png" alt="" />
+            <p>Kiyimlar va poyabzal</p>
+          </div>
+
+          <div
+            class="flex w-[300px] cursor-pointer h-[60px] bg-[#efefef] hover:bg-gray-300 transition duration-300 justify-center rounded-[12px] gap-7 items-center"
+          >
+            <img class="w-10 h-10" src="./images/promo-1.png" alt="" />
+            <p>Brend kosmetika</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container py-5">
+        <div
+          class="products__wrapper grid grid-cols-4 gap-28 place-items-center object-contain"
+        ></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

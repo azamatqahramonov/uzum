@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.data__img {
+  width: 232px;
+  height: 310px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.data__img:hover {
+  transform: scale(1.02);
+}
+
+.data__name,
+.data__rating,
+.data__price,
+.data__category,
+.data__description,
+.data__stock {
+  padding: 5px;
+}
+
+.data__price {
+  background-color: yellow;
+  border-radius: 13px;
+  text-align: center;
+}
